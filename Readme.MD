@@ -71,21 +71,4 @@ _Auto-extracted from the notebook for better clarity and flow._
 - Achieved **R² Score: ~0.92**
 - Key factors affecting price: **Present Price**, **Car Age**, **Kms Driven**, **Fuel Type**
 
----
-## 🚀 How to Run
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/Used-Car-Price-Prediction.git
-cd Used-Car-Price-Prediction
 
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the notebook
-jupyter notebook Used_Car_Price_Prediction_Regression.ipynb
-```
-
----
-
-## 📜 License
-This project is licensed under the MIT License - see the LICENSE file for details.
