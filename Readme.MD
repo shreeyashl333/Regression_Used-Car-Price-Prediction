@@ -1,52 +1,91 @@
 # 🚗 Used Car Price Prediction
 
-A Machine Learning project to predict the **selling prices** of used cars based on various attributes such as brand, year, mileage, fuel type, and transmission.
+A Machine Learning project to predict the **selling prices** of used cars based on various attributes such as brand, year, mileage, fuel type, and transmission.  
+The project demonstrates **data preprocessing**, **exploratory data analysis (EDA)**, **feature engineering**, and **regression modeling**.
+
+---
 
 ## 📂 Dataset
-- **File:** `Used Car Prices.csv`
-- **Target:** `Selling Price`
-- **Features:** brand, year, present price, kms driven, fuel type, transmission, owner count, etc.
+The dataset used: **Used Car Prices.csv**  
+It contains information such as:
+- Car brand & model
+- Year of manufacture
+- Present price
+- Kms driven
+- Fuel type
+- Transmission type
+- Owner count
+- Selling price (target)
+
+---
 
 ## 🛠 Tech Stack
-Python · Pandas · NumPy · Matplotlib · Seaborn · Scikit-learn
+- **Python**
+- **Pandas / NumPy**
+- **Matplotlib / Seaborn** (Data Visualization)
+- **Scikit-learn** (Modeling & Evaluation)
+
+---
 
 ## 📊 Workflow
-1) Data loading & cleaning
-2) EDA
-3) Feature engineering
-4) Modeling (Linear Regression, Random Forest, XGBoost)
-5) Evaluation (R², MAE, RMSE)
+1. **Data Loading & Cleaning**
+   - Handle missing values
+   - Convert categorical features into numeric form
+2. **Exploratory Data Analysis**
+   - Correlation heatmaps
+   - Price trends by brand, age, fuel type, etc.
+3. **Feature Engineering**
+   - Car age calculation
+   - Encoding categorical variables
+4. **Modeling**
+   - Linear Regression
+   - Random Forest Regressor
+   - XGBoost Regressor
+5. **Evaluation**
+   - R² Score
+   - Mean Absolute Error (MAE)
+   - Root Mean Squared Error (RMSE)
 
-
-## 📷 Key Visualizations
-
-_Auto-extracted from the notebook. Stored under `images_used_car/`. Previewed below in a logical flow._
-
+---
+## 📈 Key Visualizations
+_Auto-extracted from the notebook for better clarity and flow._
 
 ### 📊 Data Exploration & Cleaning
-
-<img src="images_used_car/plot_01.png" alt="plot_01.png" width="360"/> <img src="images_used_car/plot_02.png" alt="plot_02.png" width="360"/>
-
-<img src="images_used_car/plot_03.png" alt="plot_03.png" width="360"/>
-
+<img src="images_ucp/plot_01.png" alt="EDA 1" width="400"/> <img src="images_ucp/plot_02.png" alt="EDA 2" width="400"/>
+<img src="images_ucp/plot_03.png" alt="EDA 3" width="400"/>
 
 ### 🔍 Feature Correlation & Importance
-
-<img src="images_used_car/plot_04.png" alt="plot_04.png" width="360"/> <img src="images_used_car/plot_05.png" alt="plot_05.png" width="360"/>
-
-<img src="images_used_car/plot_06.png" alt="plot_06.png" width="360"/>
-
+<img src="images_ucp/plot_04.png" alt="Feature view 1" width="400"/> <img src="images_ucp/plot_05.png" alt="Feature view 2" width="400"/>
+<img src="images_ucp/plot_06.png" alt="Feature view 3" width="400"/>
 
 ### 🤖 Model Training & Evaluation
-
-<img src="images_used_car/plot_07.png" alt="plot_07.png" width="360"/> <img src="images_used_car/plot_08.png" alt="plot_08.png" width="360"/>
-
-<img src="images_used_car/plot_09.png" alt="plot_09.png" width="360"/>
-
+<img src="images_ucp/plot_07.png" alt="Training/Eval 1" width="400"/> <img src="images_ucp/plot_08.png" alt="Training/Eval 2" width="400"/>
+<img src="images_ucp/plot_09.png" alt="Training/Eval 3" width="400"/>
 
 ### 📈 Predictions & Results
+<img src="images_ucp/plot_10.png" alt="Predictions 1" width="400"/> <img src="images_ucp/plot_11.png" alt="Predictions 2" width="400"/>
+<img src="images_ucp/plot_12.png" alt="Predictions 3" width="400"/>
 
-<img src="images_used_car/plot_10.png" alt="plot_10.png" width="360"/> <img src="images_used_car/plot_11.png" alt="plot_11.png" width="360"/>
+**Results:**
+- Best model: **Random Forest Regressor**
+- Achieved **R² Score: ~0.92**
+- Key factors affecting price: **Present Price**, **Car Age**, **Kms Driven**, **Fuel Type**
 
-<img src="images_used_car/plot_12.png" alt="plot_12.png" width="360"/>
+---
+## 🚀 How to Run
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/Used-Car-Price-Prediction.git
+cd Used-Car-Price-Prediction
 
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the notebook
+jupyter notebook Used_Car_Price_Prediction_Regression.ipynb
+```
+
+---
+
+## 📜 License
+This project is licensed under the MIT License - see the LICENSE file for details.
