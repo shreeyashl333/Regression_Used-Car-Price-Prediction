@@ -48,31 +48,15 @@ It contains information such as:
 
 ---
 
-## 📈 Key Visualizations
-### Price Distribution
-![Price Distribution](images/price_distribution.png)
+## 📷 Key Visuals
 
-### Correlation Heatmap
-![Correlation Heatmap](images/correlation_heatmap.png)
+<img src="images_ucp/plot_01.png" alt="plot_01.png" width="300"/> <img src="images_ucp/plot_02.png" alt="plot_02.png" width="300"/> <img src="images_ucp/plot_03.png" alt="plot_03.png" width="300"/> 
 
-### Feature Importance (Random Forest)
-![Feature Importance](images/feature_importance.png)
+<img src="images_ucp/plot_04.png" alt="plot_04.png" width="300"/> <img src="images_ucp/plot_05.png" alt="plot_05.png" width="300"/> <img src="images_ucp/plot_06.png" alt="plot_06.png" width="300"/> 
 
----
+<img src="images_ucp/plot_07.png" alt="plot_07.png" width="300"/> <img src="images_ucp/plot_08.png" alt="plot_08.png" width="300"/> <img src="images_ucp/plot_09.png" alt="plot_09.png" width="300"/> 
 
-## 🚀 How to Run
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/Used-Car-Price-Prediction.git
-cd Used-Car-Price-Prediction
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the notebook
-jupyter notebook Used_Car_Price_Prediction_Regression.ipynb
-```
-
+<img src="images_ucp/plot_10.png" alt="plot_10.png" width="300"/> <img src="images_ucp/plot_11.png" alt="plot_11.png" width="300"/> <img src="images_ucp/plot_12.png" alt="plot_12.png" width="300"/> 
 ---
 
 ## 📌 Results
